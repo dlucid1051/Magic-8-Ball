@@ -1,0 +1,19 @@
+# --- PyInstaller Outputs ---
+build/
+dist/
+*.spec
+
+# --- Python System Artifacts ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Operating System Files ---
+.DS_Store
+Thumbs.db
+
+# --- Environment Files (Optional but good practice) ---
+.venv/
+venv/
+ENV/
