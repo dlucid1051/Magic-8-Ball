@@ -13,7 +13,17 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
-# --- Environment Files (Optional but good practice) ---
+# --- Environment Files ---
 .venv/
 venv/
 ENV/
+android_env/       # Prevents accidental commits of old or future Android envs
+
+# --- PyInstaller / Build Artifacts ---
+build/             # PyInstaller temporary compilation files
+dist/              # Your compiled Windows executable output folder
+*.spec             # PyInstaller configuration files
+
+# --- Python Cache ---
+__pycache__/       # Automatically generated Python bytecode
+*.pyc
